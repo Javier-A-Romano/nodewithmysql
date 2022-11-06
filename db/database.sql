@@ -10,3 +10,10 @@ CREATE TABLE employee(
     PRIMARY KEY(id)
 )
 DESCRIBE employee;
+
+INSERT INTO employee VALUES
+(1,'Shorlak',5000),
+(2,'Shorlak2',5000),
+(3,'Shorlak3',5000)
+
+SELECT * FROM employee
