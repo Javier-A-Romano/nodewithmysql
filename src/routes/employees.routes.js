@@ -8,6 +8,6 @@ router.get('/employes', getEmployee)
 router.get('/employes/:id', getEmployeeID)
 router.post('/employes', createEmployee)
 router.put('/employes', updateEmployee)
-router.delete('/employes', deleteEmployee)
+router.delete('/employes/:id', deleteEmployee)
 
 export default router
